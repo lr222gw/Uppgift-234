@@ -18,7 +18,7 @@ Betalningar sker nu genom hemsidan <-- hemsidan påminner Admin (kassören..) oc
 Hemsidan och Administreringen är alltså SAMMA Medlemmsregister, då det är båda delar av samma program.(Backend och Frontend)
 
 Alltså plan: 
-Program/webbsida som tar hand om båtplatser(bokning, byte, platshantering), betalning, Gemensam Almenacka(events, möjligtvis EPost påminnelser).
+Program/webbsida som tar hand om båtplatser(bokning, anonsering, byte, platshantering), betalning, Gemensam Almenacka(events, möjligtvis EPost påminnelser).
 					^visar karta över vilka båtplatser som finns, vilka som är lediga, vilka du äger/har båtar på nu.
 						^Man har förtur till platsen som man hade förra året, om man svarar på en fråga som ställs
 						I början på varje ny båtsäsong..
@@ -28,5 +28,92 @@ Additional stuff:
 - Forum för båtentusiasterna. <-- Då det är en klubb..
 - Profil <-- där man fyller i uppgifterna om sig, antalet båtar, bilder på sina båtar, mm.
 
-Personal som påverkas:
+personer som påverkas eller kan komma att påverkas sig om systemet:
+-Sekreterare : bokar allas båtplatser (ska ta hänsyn till: "Gamla platser", "flera båtar nära varandra", "vilken båt KAN stå vart?storlek etc..")
+-Kassör: sköter betalningar ( ska ta hänsyn till: Medlemmarnas faasta och rörliga avgifter, när medlemsskap tar slut)
+-Klubbmedlemmar
+
+
+Intressenter <- personer som påverkas av våran lösning. <-- ska skriva vem som är vad, kontakt etc..
+-Klubbadmin/klubbsekreterare = underlättar deras arbete..
+-klubbmedlem = underlättar
+-någon som hyr ut webbplats = så att man kan ha programmet/webbsidan på internet..
+-räddningstjänsten = måste också förstå hur de privata byterna kommer fungera så att de ej blir knas.
+- Vilka berörs mer??? 
+
+
+Liknande System? 
+-"Förenings Husets Medelemssystem"
+PROS:
+	-samlar statestik
+	-Skickar ut påminnelser
+	-håller koll på "kunders" obetalade avgifter..
+CONS: 
+	-har inte allt som vårt system kommer ha..
+-"SportAdmin"
+PROS: 
+	-Allt sker genom webben
+	-sms påminellser
+	-medlemsavgift via mail
+	-klubbforum
+	-schema
+	-mer saker som ej är nödvändigt för just "Den Glada Piraten"
+Cons:
+	-Fokus på organisationer som lämpar sig bäst för sport
+
+-"Kansliet":
+PROS:
+	-Allting sker online
+	-Anpassningsbar för olika behov.
+	-håller koll på mycket 
+	-användarvänligt
+CONS:
+	-mycket funktionalitet som ej kommer användas = gör det rörigt för den simpla användaren som bara ska göra ett fåtal saker..
+
+
+-PROS (vår lösning): 
+-Skräddarsytt efter klubbens behov.
+-håller koll på båtstorlekar samt vilken båt som kan stå vart. 
+-Gör det möjligt att byta plats med andra båtägare utan massa hassel.
 -
+
+Ta idéer från liknande system + idéer..:
+-Samla statestik (hur många har redan betalt, hur många båtar, etc)
+-allt Görs (SJÄLVKLART) över internet. 
+-Se vilka som betalt/ ej betalt, <-- samt skickar påminnelser
+-gemensam almenacka som skickar påminellser via sms/epost
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
