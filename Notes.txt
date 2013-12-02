@@ -1,0 +1,18 @@
+Klubben har många medlemmar <-- behöver hålla koll på viktiga datum 
+							^behöver kunna skriva upp viktiga datum som finns tillgängligt för alla.
+
+Medlemmmarna har det svårt att ändra information om sig själva <-- fixa Community med profil som används till både betalning, ändra datum, bekräfta saker,mm.
+									^Boka plats
+									ändra uppgifter
+Använder inter..-båtregistret->Låter användaren fylla i storlek mm. ->	"Mina båtar" <-- hjälper till så att användare får sina båtar nära varandra..
+				^ser till att platserna fungerar	Önskad båtplats <-- användaren väljer sin båtplats (får välja på lediga platser.)
+				 till båten..				System för platsbyte <- man kan sätta ut sin plats och byta
+												^en plats för någon kanske är mer låvande för någon annan..
+									Privata byten <-- Granskas genom Admin och verkställs som offentligt!
+Sekreterare <-- admin
+^sköter bokningar av båtplatser <-- sker genom programmet/hemsidan..
+
+Betalningar sker nu genom hemsidan <-- hemsidan påminner Admin (kassören..) och kund/klubbmedlem om någon betalning är sen, etc..
+	^beroende på hur många båtar man har så får man betala mer, antalet båtar fyller användaren i, i "Mina båtar".
+
+Hemsidan och Administreringen har alltså SAMMA Medlemmsregister, då det är båda delar av samma program.
