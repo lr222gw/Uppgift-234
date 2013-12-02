@@ -1,29 +1,32 @@
-Klubben har många medlemmar <-- behöver hålla koll på viktiga datum 
-							^behöver kunna skriva upp viktiga datum som finns tillgängligt för alla.
+ï»¿Klubben har mÃ¥nga medlemmar <-- behÃ¶ver hÃ¥lla koll pÃ¥ viktiga datum 
+							^behÃ¶ver kunna skriva upp viktiga datum som finns tillgÃ¤ngligt fÃ¶r alla.
 
-Medlemmmarna har det svårt att ändra information om sig själva <-- fixa Community med profil som används till både betalning, ändra datum, bekräfta saker,mm.
+Medlemmmarna har det svÃ¥rt att Ã¤ndra information om sig sjÃ¤lva <-- fixa Community med profil som anvÃ¤nds till bÃ¥de betalning, Ã¤ndra datum, bekrÃ¤fta saker,mm.
 									^Boka plats
-									ändra uppgifter
-Använder inter..-båtregistret->Låter användaren fylla i storlek mm. ->	"Mina båtar" <-- hjälper till så att användare får sina båtar nära varandra..
-				^ser till att platserna fungerar	Önskad båtplats <-- användaren väljer sin båtplats (får välja på lediga platser.)
-				 till båten..				System för platsbyte <- man kan sätta ut sin plats och byta
-												^en plats för någon kanske är mer låvande för någon annan..
-									Privata byten <-- Granskas genom Admin och verkställs som offentligt!
+									Ã¤ndra uppgifter
+AnvÃ¤nder inter..-bÃ¥tregistret->LÃ¥ter anvÃ¤ndaren fylla i storlek mm. ->	"Mina bÃ¥tar" <-- hjÃ¤lper till sÃ¥ att anvÃ¤ndare fÃ¥r sina bÃ¥tar nÃ¤ra varandra..
+				^ser till att platserna fungerar	Ã–nskad bÃ¥tplats <-- anvÃ¤ndaren vÃ¤ljer sin bÃ¥tplats (fÃ¥r vÃ¤lja pÃ¥ lediga platser.)
+				 till bÃ¥ten..				System fÃ¶r platsbyte <- man kan sÃ¤tta ut sin plats och byta
+												^en plats fÃ¶r nÃ¥gon kanske Ã¤r mer lÃ¥vande fÃ¶r nÃ¥gon annan..
+									Privata byten <-- Granskas genom Admin och verkstÃ¤lls som offentligt!
 Sekreterare <-- admin
-^sköter bokningar av båtplatser <-- sker genom programmet/hemsidan..
+^skÃ¶ter bokningar av bÃ¥tplatser <-- sker genom programmet/hemsidan..
 
-Betalningar sker nu genom hemsidan <-- hemsidan påminner Admin (kassören..) och kund/klubbmedlem om någon betalning är sen, etc..
-	^beroende på hur många båtar man har så får man betala mer, antalet båtar fyller användaren i, i "Mina båtar".
+Betalningar sker nu genom hemsidan <-- hemsidan pÃ¥minner Admin (kassÃ¶ren..) och kund/klubbmedlem om nÃ¥gon betalning Ã¤r sen, etc..
+	^beroende pÃ¥ hur mÃ¥nga bÃ¥tar man har sÃ¥ fÃ¥r man betala mer, antalet bÃ¥tar fyller anvÃ¤ndaren i, i "Mina bÃ¥tar".
 
-Hemsidan och Administreringen är alltså SAMMA Medlemmsregister, då det är båda delar av samma program.(Backend och Frontend)
+Hemsidan och Administreringen Ã¤r alltsÃ¥ SAMMA Medlemmsregister, dÃ¥ det Ã¤r bÃ¥da delar av samma program.(Backend och Frontend)
 
-Alltså plan: 
-Program/webbsida som tar hand om båtplatser(bokning, byte, platshantering), betalning, Gemensam Almenacka(events, möjligtvis EPost påminnelser).
-					^visar karta över vilka båtplatser som finns, vilka som är lediga, vilka du äger/har båtar på nu.
-						^Man har förtur till platsen som man hade förra året, om man svarar på en fråga som ställs
-						I början på varje ny båtsäsong..
+AlltsÃ¥ plan: 
+Program/webbsida som tar hand om bÃ¥tplatser(bokning, byte, platshantering), betalning, Gemensam Almenacka(events, mÃ¶jligtvis EPost pÃ¥minnelser).
+					^visar karta Ã¶ver vilka bÃ¥tplatser som finns, vilka som Ã¤r lediga, vilka du Ã¤ger/har bÃ¥tar pÃ¥ nu.
+						^Man har fÃ¶rtur till platsen som man hade fÃ¶rra Ã¥ret, om man svarar pÃ¥ en frÃ¥ga som stÃ¤lls
+						I bÃ¶rjan pÃ¥ varje ny bÃ¥tsÃ¤song..
 
 Additional stuff: 
-- Counter som håller koll på hur många medlemmar klubben har
-- Forum för båtentusiasterna. <-- Då det är en klubb..
-- Profil <-- där man fyller i uppgifterna om sig, antalet båtar, bilder på sina båtar, mm.
+- Counter som hÃ¥ller koll pÃ¥ hur mÃ¥nga medlemmar klubben har
+- Forum fÃ¶r bÃ¥tentusiasterna. <-- DÃ¥ det Ã¤r en klubb..
+- Profil <-- dÃ¤r man fyller i uppgifterna om sig, antalet bÃ¥tar, bilder pÃ¥ sina bÃ¥tar, mm.
+
+Personal som pÃ¥verkas:
+-
