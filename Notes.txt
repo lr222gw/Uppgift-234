@@ -15,4 +15,15 @@ Sekreterare <-- admin
 Betalningar sker nu genom hemsidan <-- hemsidan påminner Admin (kassören..) och kund/klubbmedlem om någon betalning är sen, etc..
 	^beroende på hur många båtar man har så får man betala mer, antalet båtar fyller användaren i, i "Mina båtar".
 
-Hemsidan och Administreringen har alltså SAMMA Medlemmsregister, då det är båda delar av samma program.
+Hemsidan och Administreringen är alltså SAMMA Medlemmsregister, då det är båda delar av samma program.(Backend och Frontend)
+
+Alltså plan: 
+Program/webbsida som tar hand om båtplatser(bokning, byte, platshantering), betalning, Gemensam Almenacka(events, möjligtvis EPost påminnelser).
+					^visar karta över vilka båtplatser som finns, vilka som är lediga, vilka du äger/har båtar på nu.
+						^Man har förtur till platsen som man hade förra året, om man svarar på en fråga som ställs
+						I början på varje ny båtsäsong..
+
+Additional stuff: 
+- Counter som håller koll på hur många medlemmar klubben har
+- Forum för båtentusiasterna. <-- Då det är en klubb..
+- Profil <-- där man fyller i uppgifterna om sig, antalet båtar, bilder på sina båtar, mm.
