@@ -1,0 +1,4 @@
+AF 4.1 Överblicka allt från obetalda medlemskap till vem som har vilka båtplatser.
+
+Klubbmedlemmar som har lite mer "makt", alltså Klubbansvariga kan logga in genom sidans backend och där välja "överblick". 
+På fliken överblick så får den klubbansvariga en överblick över vilka som inte har betalt/snart ska betala, vem som har sin båtplats var etc.

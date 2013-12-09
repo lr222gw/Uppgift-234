@@ -1,0 +1,3 @@
+AF 1.3 Byta_välj_ta bort båtplatser
+
+Genom "ändra inställningar" på BåtAdmins webbplats så kan en klubbmedlem byta platser mellan användare, platsbytet måste sedan godkännas av sekreteraren.

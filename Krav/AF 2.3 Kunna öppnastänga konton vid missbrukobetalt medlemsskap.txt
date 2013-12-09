@@ -1,0 +1,3 @@
+AF 2.3 Kunna öppnastänga konton vid missbrukobetalt medlemsskap
+
+Kassören kan stänga av och öppna tidigare stängda konton.

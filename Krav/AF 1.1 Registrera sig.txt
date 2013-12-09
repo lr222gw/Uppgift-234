@@ -20,7 +20,7 @@ Huvudscenario:
 2. Systemet tar fram ett registreringsformulär.
 3. Personen matar in sina kontaktuppgifter och väntar på svar.
 4. Systemet skickar vidare uppgifterna till en databas där de kontrolleras.
-5. Sekreteraren får ett meddelande om att bekräfta en ny medlem och bekräftar.
+5. Kassören får ett meddelande om att bekräfta en ny medlem och bekräftar.
 6. Systemet skickar tillbaka ett godkännande till den nya användaren om att han är godkänd och ber om betalning.
 7. Personen betalar och får ett meddelande om att vänta på bekräftning från kassören.
 8. Systemet skickar ett meddelande om att bekräfta den nya betalningen till kassören.
@@ -34,8 +34,8 @@ Alternativa Scenarion:
 	2. Personen rättar till felen
 	Gå tillbaka till steg 4.
 
-5a. Sekreteraren godkänner ej medlemmskapet:
-	1. Systemet skickar tillbaka en nekan om ansökning av medlemskap till personen samt kontaktinfo till sekreteraren för mer information.
+5a. kassören godkänner ej medlemmskapet:
+	1. Systemet skickar tillbaka en nekan om ansökning av medlemskap till personen samt kontaktinfo till kassören för mer information.
 	Användningsfallet avslutas.
 
 7a. Personen betalar inte för medlemskapet:

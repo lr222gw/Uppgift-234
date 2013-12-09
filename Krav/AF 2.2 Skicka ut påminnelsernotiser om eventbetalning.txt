@@ -1,0 +1,4 @@
+AF 2.2 Skicka ut påminnelsernotiser om eventbetalning
+
+Systemet skickar automatiskt ut påminnelser om event eller betalning. 
+En klubbansvarig kan även gå in och skriva egna påminnelser som den kan skicka ut.
