@@ -7,7 +7,7 @@ Primär Aktör:
 Klubbmedlem
 
 Sekundär Aktör: 
-Sekreterare <- godkänner nya medlemskap. 
+Kassören <- godkänner nya medlemskap. 
 
 Förkrav: 
 innan medlemmsskapet blir giltigt måste kunden bli godkänd av sekreterare och kassör.
@@ -18,33 +18,33 @@ Klubbmedlemen kan använda sitt konto.
 Huvudscenario:
 1. Startar när den snart blivande klubbmedlemmen registrerar sig.
 2. Systemet tar fram ett registreringsformulär.
-3. Personen matar in sina kontaktuppgifter och väntar på svar.
+3. klubbmedlemmen matar in sina kontaktuppgifter och väntar på svar.
 4. Systemet skickar vidare uppgifterna till en databas där de kontrolleras.
 5. Kassören får ett meddelande om att bekräfta en ny medlem och bekräftar.
 6. Systemet skickar tillbaka ett godkännande till den nya användaren om att han är godkänd och ber om betalning.
-7. Personen betalar och får ett meddelande om att vänta på bekräftning från kassören.
+7. klubbmedlemmen betalar och får ett meddelande om att vänta på bekräftning från kassören.
 8. Systemet skickar ett meddelande om att bekräfta den nya betalningen till kassören.
 9. Kassören tar emot meddelandet och godkänner betalningen.
-10.Systemet skickar ett meddelande till personen om att kontont är färdigregistrerats och betalt för X antal månader, han kan nu använda sitt konto.
+10.Systemet skickar ett meddelande till klubbmedlemmen om att kontont är färdigregistrerats och betalt för X antal månader, han kan nu använda sitt konto.
 
 
 Alternativa Scenarion:
 4a. Kontaktuppgifterna var ogiltiga:
 	1. Systemet skickar tillbaka information om vilka uppgifter som är ogiltiga
-	2. Personen rättar till felen
+	2. klubbmedlemmen rättar till felen
 	Gå tillbaka till steg 4.
 
-5a. kassören godkänner ej medlemmskapet:
-	1. Systemet skickar tillbaka en nekan om ansökning av medlemskap till personen samt kontaktinfo till kassören för mer information.
+5a. kassören godkänner ej medlemskapet:
+	1. Systemet skickar tillbaka en nekan om ansökning av medlemskap till klubbmedlemmen samt kontaktinfo till kassören för mer information.
 	Användningsfallet avslutas.
 
-7a. Personen betalar inte för medlemskapet:
-	1. Systemet skickar ett meddelande till personen och berättar att den inte kommer kunna ta del av medlemmskapet om han ej betalar och att hans kontaktuppgifter kommer försvinna från systemet inom 10 dagar om ej en betalning görs.
+7a. klubbmedlemmen betalar inte för medlemskapet:
+	1. Systemet skickar ett meddelande till klubbmedlemmen och berättar att den inte kommer kunna ta del av medlemskapet om han ej betalar och att hans kontaktuppgifter kommer försvinna från systemet inom 10 dagar om ej en betalning görs.
 	Användningsfallet avslutas.
 
 9a. Kassören väljer att neka betalningen:
 	1. Systemet frågar om kassören verkligen är säker på att neka betalningen
-	2. Kassören väljer "ja" och får upp en liten ruta där den kan skriva ett meddelande till personer som ansöker medlemmskap.
+	2. Kassören väljer "ja" och får upp en liten ruta där den kan skriva ett meddelande till klubbmedlemmen som ansöker medlemskap.
 	3. Systemet skickar ett iväg nekan samt meddelandet från kassören.
-	4. Personen tar emot brevet.
+	4. klubbmedlemmen tar emot brevet.
 	Användningsfallet avslutas.
