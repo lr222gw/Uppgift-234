@@ -7,6 +7,8 @@ Primär Aktör:
 Klubbmedlem
 
 Sekundär Aktör: 
+
+offstage Aktör:
 Kassören <- godkänner nya medlemskap. 
 
 Förkrav: 
@@ -48,3 +50,7 @@ Alternativa Scenarion:
 	3. Systemet skickar ett iväg nekan samt meddelandet från kassören.
 	4. klubbmedlemmen tar emot brevet.
 	Användningsfallet avslutas.
+
+Saker som bör göras:
+-skriva om testfall: dela upp i mindre use cases, tex: klubbmedlem ansöker medlemskap, och , kassör bekräftar
+-ett testfall bör bara gå mellan System och aktör, systemet kan hämta info från sekundär aktör.
