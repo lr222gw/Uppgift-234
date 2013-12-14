@@ -1,27 +1,22 @@
-AF 1.1 Registrera sig
+AF 1.1.2 Kassör bekräftar medlemskap
 
 En klubbmedlem vill registrera sig för att tex: ha en båtplats, få upplysningar om event, delta på forumet. 
 Registreringen sker genom hemsidan.
 
 Primär Aktör:
-Klubbmedlem
+Kassören
 
 Sekundär Aktör: 
-
-offstage Aktör:
-Kassören <- godkänner nya medlemskap. 
+Klubbmedlem <-- som söker medlemskap
 
 Förkrav: 
-innan medlemmsskapet blir giltigt måste kunden bli godkänd av sekreterare och kassör.
+AF 1.1.1 måste genomförts.
 
 Efterkrav:
-Klubbmedlemen kan använda sitt konto.
+Klubbmedlemen kan använda kontot kassören godkänt.
 
 Huvudscenario:
-1. Startar när den snart blivande klubbmedlemmen registrerar sig.
-2. Systemet tar fram ett registreringsformulär.
-3. klubbmedlemmen matar in sina kontaktuppgifter och väntar på svar.
-4. Systemet skickar vidare uppgifterna till en databas där de kontrolleras.
+
 5. Kassören får ett meddelande om att bekräfta en ny medlem och bekräftar.
 6. Systemet skickar tillbaka ett godkännande till den nya användaren om att han är godkänd och ber om betalning.
 7. klubbmedlemmen betalar och får ett meddelande om att vänta på bekräftning från kassören.
@@ -31,10 +26,6 @@ Huvudscenario:
 
 
 Alternativa Scenarion:
-4a. Kontaktuppgifterna var ogiltiga:
-	1. Systemet skickar tillbaka information om vilka uppgifter som är ogiltiga
-	2. klubbmedlemmen rättar till felen
-	Gå tillbaka till steg 4.
 
 5a. kassören godkänner ej medlemskapet:
 	1. Systemet skickar tillbaka en nekan om ansökning av medlemskap till klubbmedlemmen samt kontaktinfo till kassören för mer information.

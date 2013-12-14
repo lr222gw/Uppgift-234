@@ -1,0 +1,32 @@
+AF 1.1.1 ansök om medlemskap
+
+En klubbmedlem vill blir medlem för att tex: ha en båtplats, få upplysningar om event, delta på forumet. 
+ansökan om medlemskap sker genom hemsidan.
+
+Primär Aktör:
+Klubbmedlem
+
+Sekundär Aktör: 
+databas som checkar om information är giltig.
+
+Förkrav: 
+innan medlemmsskapet blir giltigt måste kunden bli godkänd av sekreterare och kassör.
+
+Efterkrav:
+Ett meddelande ligger hoss kassören och väntar på att bli bekräftat.
+
+Huvudscenario:
+1. Startar när den snart blivande klubbmedlemmen påbörjar registration på sidan.
+2. Systemet tar fram ett registreringsformulär.
+3. klubbmedlemmen matar in sina kontaktuppgifter och väntar på svar.
+4. Systemet skickar vidare uppgifterna till en databas där de kontrolleras.
+5. Användaren får besked om att uppgifterna ska kontrolleras av personal och får nu vänta tills kontrollen av klar.
+
+
+
+Alternativa Scenarion:
+4a. Kontaktuppgifterna var ogiltiga:
+	1. Systemet skickar tillbaka information om vilka uppgifter som är ogiltiga
+	2. klubbmedlemmen rättar till felen
+	Gå tillbaka till steg 4.
+
