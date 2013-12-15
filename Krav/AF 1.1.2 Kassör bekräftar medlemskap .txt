@@ -16,32 +16,29 @@ Efterkrav:
 Klubbmedlemen kan använda kontot kassören godkänt.
 
 Huvudscenario:
-
-5. Kassören får ett meddelande om att bekräfta en ny medlem och bekräftar.
-6. Systemet skickar tillbaka ett godkännande till den nya användaren om att han är godkänd och ber om betalning.
-7. klubbmedlemmen betalar och får ett meddelande om att vänta på bekräftning från kassören.
-8. Systemet skickar ett meddelande om att bekräfta den nya betalningen till kassören.
-9. Kassören tar emot meddelandet och godkänner betalningen.
-10.Systemet skickar ett meddelande till klubbmedlemmen om att kontont är färdigregistrerats och betalt för X antal månader, han kan nu använda sitt konto.
+1. Kassören får ett meddelande om att bekräfta en ny medlem och bekräftar.
+2. Systemet skickar tillbaka ett godkännande till den nya användaren om att han är godkänd och ber om betalning.
+3. klubbmedlemmen betalar och får ett meddelande om att vänta på bekräftning från kassören.
+4. Systemet skickar ett meddelande om att bekräfta den nya betalningen till kassören.
+5. Kassören tar emot meddelandet och godkänner betalningen.
+6.Systemet skickar ett meddelande till klubbmedlemmen om att kontont är färdigregistrerats och betalt för X antal månader, han kan nu använda sitt konto.
 
 
 Alternativa Scenarion:
 
-5a. kassören godkänner ej medlemskapet:
+1a. kassören godkänner ej medlemskapet:
 	1. Systemet skickar tillbaka en nekan om ansökning av medlemskap till klubbmedlemmen samt kontaktinfo till kassören för mer information.
 	Användningsfallet avslutas.
 
-7a. klubbmedlemmen betalar inte för medlemskapet:
+3a. klubbmedlemmen betalar inte för medlemskapet:
 	1. Systemet skickar ett meddelande till klubbmedlemmen och berättar att den inte kommer kunna ta del av medlemskapet om han ej betalar och att hans kontaktuppgifter kommer försvinna från systemet inom 10 dagar om ej en betalning görs.
 	Användningsfallet avslutas.
 
-9a. Kassören väljer att neka betalningen:
+5a. Kassören väljer att neka betalningen:
 	1. Systemet frågar om kassören verkligen är säker på att neka betalningen
 	2. Kassören väljer "ja" och får upp en liten ruta där den kan skriva ett meddelande till klubbmedlemmen som ansöker medlemskap.
 	3. Systemet skickar ett iväg nekan samt meddelandet från kassören.
 	4. klubbmedlemmen tar emot brevet.
 	Användningsfallet avslutas.
 
-Saker som bör göras:
--skriva om testfall: dela upp i mindre use cases, tex: klubbmedlem ansöker medlemskap, och , kassör bekräftar
--ett testfall bör bara gå mellan System och aktör, systemet kan hämta info från sekundär aktör.
+
